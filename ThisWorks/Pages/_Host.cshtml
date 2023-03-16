@@ -2,6 +2,9 @@
 @using Microsoft.AspNetCore.Components.Web
 @namespace ThisWorks.Pages
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    Layout = null;
+}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -30,6 +33,6 @@
     </div>
 
     <script src="_framework/blazor.server.js"></script>
-    <script type="text/javascript" href="/_content/Chronos.Blazor.Cropper/CropHelper.js"></script>
+    <script src="_content/Chronos.Blazor.Cropper/CropHelper.js"></script>
 </body>
 </html>
