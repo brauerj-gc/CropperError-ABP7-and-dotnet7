@@ -37,7 +37,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Acme.BookStore.Blazor", "sr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acme.BookStore.BlazorLib", "src\Acme.BookStore.BlazorLib\Acme.BookStore.BlazorLib.csproj", "{E8960093-2B5C-4370-B440-852537097D9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThisWorks", "ThisWorks\ThisWorks.csproj", "{E3853E6E-8A10-45FE-9FD8-1C4878DD594A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThisFailsToo7", "ThisWorks\ThisFailsToo7.csproj", "{E3853E6E-8A10-45FE-9FD8-1C4878DD594A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
