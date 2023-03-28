@@ -33,7 +33,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Acme.BookStore.HttpApi.Clie
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Acme.BookStore.DbMigrator", "src\Acme.BookStore.DbMigrator\Acme.BookStore.DbMigrator.csproj", "{AA94D832-1CCC-4715-95A9-A483F23A1A5D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Acme.BookStore.Blazor", "src\Acme.BookStore.Blazor\Acme.BookStore.Blazor.csproj", "{16F0BF4E-7D73-4278-8D9A-7CDE37105C6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Acme.BookStore.BlazorWeb", "src\Acme.BookStore.Blazor\Acme.BookStore.BlazorWeb.csproj", "{16F0BF4E-7D73-4278-8D9A-7CDE37105C6B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Acme.BookStore.BlazorLib", "src\Acme.BookStore.BlazorLib\Acme.BookStore.BlazorLib.csproj", "{E8960093-2B5C-4370-B440-852537097D9A}"
 EndProject

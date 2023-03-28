@@ -1,7 +1,7 @@
 ﻿using Volo.Abp.DependencyInjection;
 using Volo.Abp.Ui.Branding;
 
-namespace Acme.BookStore.Blazor;
+namespace Acme.BookStore.BlazorWeb;
 
 [Dependency(ReplaceServices = true)]
 public class BookStoreBrandingProvider : DefaultBrandingProvider

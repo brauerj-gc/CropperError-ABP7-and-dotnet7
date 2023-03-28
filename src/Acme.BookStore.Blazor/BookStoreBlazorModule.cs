@@ -8,7 +8,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
-using Acme.BookStore.Blazor.Menus;
+using Acme.BookStore.BlazorWeb.Menus;
 using Acme.BookStore.EntityFrameworkCore;
 using Acme.BookStore.Localization;
 using Acme.BookStore.MultiTenancy;
@@ -41,7 +41,7 @@ using Volo.Abp.UI.Navigation;
 using Volo.Abp.UI.Navigation.Urls;
 using Volo.Abp.VirtualFileSystem;
 
-namespace Acme.BookStore.Blazor;
+namespace Acme.BookStore.BlazorWeb;
 
 [DependsOn(
     typeof(BookStoreApplicationModule),
@@ -135,7 +135,7 @@ public class BookStoreBlazorModule : AbpModule
                 {
                     bundle.AddFiles("/blazor-global-styles.css");
                     //You can remove the following line if you don't use Blazor CSS isolation for components
-                    bundle.AddFiles("/Acme.BookStore.Blazor.styles.css");
+                    bundle.AddFiles("/Acme.BookStore.BlazorWeb.styles.css");
                 }
             );
         });

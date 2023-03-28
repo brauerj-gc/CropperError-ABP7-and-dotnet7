@@ -6,7 +6,7 @@ using Microsoft.Extensions.Hosting;
 using Serilog;
 using Serilog.Events;
 
-namespace Acme.BookStore.Blazor;
+namespace Acme.BookStore.BlazorWeb;
 
 public class Program
 {

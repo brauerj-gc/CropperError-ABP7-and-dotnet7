@@ -1,4 +1,4 @@
-﻿namespace Acme.BookStore.Blazor.Menus;
+﻿namespace Acme.BookStore.BlazorWeb.Menus;
 
 public class BookStoreMenus
 {

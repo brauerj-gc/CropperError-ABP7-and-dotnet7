@@ -6,7 +6,7 @@ using Volo.Abp.SettingManagement.Blazor.Menus;
 using Volo.Abp.TenantManagement.Blazor.Navigation;
 using Volo.Abp.UI.Navigation;
 
-namespace Acme.BookStore.Blazor.Menus;
+namespace Acme.BookStore.BlazorWeb.Menus;
 
 public class BookStoreMenuContributor : IMenuContributor
 {
